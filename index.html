@@ -307,6 +307,7 @@
         td{
             padding: 12px;
             text-align: right;
+            
             border-bottom: 1px solid #ddd;
         }
         
@@ -591,6 +592,14 @@
             transform: scale(1.5);
             margin: 2px;
         }
+        .vl {
+            border-left: 1px solid #ddd;
+            height: 44px;
+            position: absolute;
+            left: 32.3%;
+            margin-left: -3px;
+            top: 0;
+          }
     </style>
 </head>
 <body>
@@ -608,6 +617,7 @@
                 <span class="value" style="color:#3a9e55;font-weight: 550;">81863.44</span>
                 <span class="change">165.33 (0.20%)</span>
             </div>
+            <div class="vl"></div>
         </div>
     </div>
     <div class="header1">
@@ -615,24 +625,24 @@
             <img src="logo.svg" alt="Company Logo">
         </div>
         <nav>
-            <a href="#">Dashboard</a>
-            <a href="#">Orders<div class='notification-dots'></div><sup>5</sup></a>
-            <a href="#">Holdings</a>
-            <a href="#" class="active">Positions</a>
-            <a href="#">Bids</a>
-            <a href="#">Funds</a>
+            <a style="font-size: 13px;"href="#">Dashboard</a>
+            <a style="font-size: 13px;margin-top:-4px;"href="#">Orders<div class='notification-dots'></div><sup>5</sup></a>
+            <a style="font-size: 13px;"href="#">Holdings</a>
+            <a style="font-size: 13px;"href="#" class="active">Positions</a>
+            <a style="font-size: 13px;"href="#">Bids</a>
+            <a style="font-size: 13px;"href="#">Funds</a>
             
         </nav>
         
         <div class="user-info">
-            <i class='bx bx-bell' style="    margin-left: -30px;
+            <i class='bx bx-bell' style=" font-size:20px;margin-left: -30px;
     margin-right: 14px;"><div class='notification-dot'></div></i>
             <div class="circle-icon">
                 <span>SW</span>
                 
             </div>
             
-            <span>TDS975</span>
+            <span style="font-size: 14px;">TDS975</span>
         </div>
         
     </div>
@@ -745,7 +755,7 @@
 
         <div class="positions-container" style="background-color: #ffffff!important;">
             <div class="positions-header">
-                <h2 style="color:#565454 !important;font-weight: normal;font-size: 19px;">Positions (2)</h2>
+                <h2 style="color:#565454 !important;font-weight: normal;font-size: 17px;">Positions (2)</h2>
                 <div class="analytics-download">
                     <div class="search-container-right" style="width: 177px;">
                     <input type="text" class="search-bars" placeholder=" Search">
@@ -791,7 +801,7 @@
             </table>
             <p style="margin-left: 719px;">Total<p class="red" style="margin-left: 890px;margin-top: -35px;">-0.04</d></p>
             <div class="positions-header">
-                <h2 style="color:#565454 !important;font-size: 19px;font-weight: normal;">Day's history (2)<bold><i class='bx bx-chevron-up'></i></bold></h2>
+                <h2 style="color:#565454 !important;font-size: 17px;font-weight: normal;">Day's history (2)<bold><i class='bx bx-chevron-up'></i></bold></h2>
                 <div class="analytics-download">
                     <div class="search-container-right1" style="width:132px;">
                         <input style="width:90px;margin-left:22px;" type="text" class="search-bars" placeholder="  Search">
